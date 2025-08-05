@@ -7,3 +7,5 @@ const students = [
 ];
 
 // เริ่มเขียนโค้ดตรงนี้
+let score = students.filter((name) => name.score > 50).map((a) => a.score + (a.score * 10/100)).reduce((name, newScore) => name + newScore,0)
+console.log(`Total score is ${score}`)
