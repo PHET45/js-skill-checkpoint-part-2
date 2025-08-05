@@ -9,6 +9,7 @@ const techcoolPeople = [
   { name: "Eve", age: 19 },
 ];
 
+
 // เริ่มเขียนโค้ดตรงนี้
 const sum = [...techcoolPeople,...techupPeople]
   let child = sum.filter((a) => a.age < 20);
