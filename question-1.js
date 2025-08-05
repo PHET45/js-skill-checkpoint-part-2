@@ -10,3 +10,6 @@ const techcoolPeople = [
 ];
 
 // เริ่มเขียนโค้ดตรงนี้
+const sum = [...techcoolPeople,...techupPeople]
+  let child = sum.filter((a) => a.age < 20);
+  console.log(child)
